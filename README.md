@@ -15,7 +15,7 @@ On top of my own donation, I will be partnering up with a few of my fellow Gener
  
 ## Wireframes
   
-  ![Wireframe](https://res.cloudinary.com/mrtommyliang/image/upload/v1572382607/Team%20Trees/Wireframe.jpg)
+  [Front End Wireframe](https://res.cloudinary.com/mrtommyliang/image/upload/v1572382607/Team%20Trees/Wireframe.jpg)
 
 ### MVP
 
