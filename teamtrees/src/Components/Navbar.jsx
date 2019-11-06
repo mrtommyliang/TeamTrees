@@ -1,22 +1,25 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { Link } from 'react-router-dom';
 import '../CSS/navbar.css'
 
-export default class Navbar extends Component {
-  render() {
-    return (
-      <div>
-        <nav class="nav-wrapper-flex">
-          <h3 class="title">COMPANY</h3>
-          <i class="material-icons" id="mobile-menu">menu</i>
-          <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact Us</a></li>
+export default function Navbar() {
+  return (
+    <div>
+      <header>
+        <div className="brand">
+          <div className="logo">
+            <h4>#TEAMTREES</h4>
+          </div>
+        </div>
+        <nav className="navbar-nav">
+          <ul>
+            <li><Link to="#">HOME</Link></li>
+            <li><Link to="#">PURPOSE</Link></li>
+            <li><Link to="#">ABOUT</Link></li>
+            <li><Link to="#">PARTICIPANTS</Link></li>
           </ul>
         </nav>
-      </div>
-    )
-  }
+      </header>
+    </div>
+  )
 }
