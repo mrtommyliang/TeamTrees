@@ -1,3 +1,6 @@
-#bannerimg {
-  width: 1500px;
+.bannerClass {
+  background: #CFEBFD;
+}
+.bannerlogo {
+  width: 800px !important;
 }

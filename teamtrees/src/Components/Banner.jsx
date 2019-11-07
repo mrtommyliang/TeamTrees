@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../images/teamtreeslogo.svg'
 import herobg from '../images/herobg.svg'
+import '../CSS/banner.css'
 
 export default function Banner() {
   return (
