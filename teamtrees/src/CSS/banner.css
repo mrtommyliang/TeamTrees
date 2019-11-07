@@ -1,6 +1,27 @@
+* {
+  outline: none !important;
+}
+
 .bannerClass {
   background: #CFEBFD;
 }
 .bannerlogo {
-  width: 800px !important;
+  padding-top: 15px;
+  width: 55%;
+}
+
+.bannerimg {
+  margin-bottom: -6px;
+  width: 100%;
+  z-index: 1;
+}
+
+.helpplant {
+  display: block;
+  width: 20%;
+  margin: 0 auto;
+  font-size: 20px;
+  color: rgb(39,54,84);
+  font-weight: 300;
+  line-height: 30px;
 }
