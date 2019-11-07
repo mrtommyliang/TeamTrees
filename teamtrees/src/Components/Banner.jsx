@@ -1,10 +1,12 @@
 import React from 'react'
-import bannerimg from '../images/banner.png'
+import logo from '../images/teamtreeslogo.svg'
+import herobg from '../images/herobg.svg'
 
 export default function Banner() {
   return (
-    <div>
-      <img className="bannerimg" src={bannerimg}/>
+    <div className="bannerClass">
+      <img className="bannerlogo" src={logo} />
+      <img className="bannerimg" src={herobg}/>
     </div>
   )
 }
